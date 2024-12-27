@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="top">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Guides"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        android:paddingLeft="100dp"/>
+
+    <Button
+        android:id="@+id/buttonChangeTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Warring"
+         />
+
+    <Button
+        android:id="@+id/buttonClearData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="clear" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        />
+</LinearLayout>

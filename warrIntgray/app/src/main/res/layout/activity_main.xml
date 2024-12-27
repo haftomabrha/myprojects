@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:background="#ffffff"
+ tools:context=".MianActivity">
+ <GridLayout
+ android:layout_height="match_parent"
+ android:layout_width="match_parent"
+  android:paddingLeft="10dp"
+ android:paddingTop="10dp"
+  android:paddingBottom="10dp"
+  android:columnCount="8"
+  android:rowCount="6"
+  android:textSize="30dp"
+  android:background="#ffffff"
+   >
+  <TextV/iew
+  android:layout_row="0"
+   android:layout_column="0"
+   android:layout_height="wrap_content"
+   android:layout_width="wrap_content"
+  android:text="       ኩናት ትግራይ" 
+  android:textColor="#ff0000"
+	android:textSize="40dp"
+	android:layout_columnSpan="4"
+  />
+  
+
+   
+   
+   <Button
+   android:layout_row="2"
+    android:layout_column="0"
+   android:layout_height="70dp"
+   android:layout_width="100dp"
+   android:text="መእተዊ"
+   android:background="#fddf01"
+   android:textColor="#000000"
+   android:textSize="21dp"
+   android:onClick="introduction"/>
+   
+   <Button
+   android:layout_row="2"
+    android:layout_column="1"
+android:layout_height="70dp"
+   android:layout_width="110dp"
+ android:text="ፖለትካዊ ኩናት"
+ android:background="#e3feed"
+ android:textColor="#e0101e"
+ android:textSize="20dp" 
+ android:onClick="politicalwar"/>
+ <Button
+   android:layout_row="2"
+    android:layout_column="2"
+android:layout_height="70dp"
+   android:layout_width="100dp"
+ android:text="ደማዊ ኩናት" 
+ android:background="#e0101e"
+ android:textSize="20dp"
+ 
+ android:onClick="bloodwar"
+/>
+<TextView
+android:layout_row="4"
+android:layout_column="0"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:id="@+id/res"
+android:textSize="18dp"
+android:text="
+\nእዚ ኩናት እዚ ኣብ ጥንታዊ ይኹን ዘመናዊ ታርኽ ዓለምና ተራእዩ ዘይፈለጥ ኩናት እዩ። 
+ምኽንያቱ ኣምህሩን ኣስጥኑን ክሳብ ጠቀላይ ምንስተር ምዃን ዕድል ክትረክብ መንገዲ ዝፀረገ ህዝቢ ልኣላውነት ሃገር ኣፈርስካ፣ባዕዳዊ ወራሪ ጋብዝካ ሰብኣውን ሃይማኖታዊን ክብሩ ብምድፋርን ኩሉ ሃፍቱ ብዝራፍን እዩ።\n ብሓፈሻ ፖለትካውን ደማውን ኩናት ብዝብል ክልተ ዓበይቲ ሪእሰታት መቅልኻ ምርኣይ ይከኣል።... "
+android:layout_columnSpan="4"/>
+   </GridLayout>
+   </ScrollView>
+   
+   
+   
+   

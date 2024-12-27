@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".MainActivity">
+    <GridLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:columnCount="14"
+        android:rowCount="8"
+        android:textSize="30dp"
+        android:background="#F5F5F5"
+        >
+
+        <ImageView
+            android:background="@drawable/circular_background"
+            android:id="@+id/logoImage"
+            android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:src="@drawable/log"
+        android:contentDescription="Logo"
+        android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/logoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:text="ዓመተ ምህረት"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="ወርሒ"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="ዕለት "
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+
+        <EditText
+            style="@style/CustomEditText"
+            android:id="@+id/input"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_height="50dp"
+            android:layout_width="120dp"
+
+
+            />
+
+
+        <EditText
+            style="@style/CustomEditText"
+            android:id="@+id/mymon"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_height="50dp"
+            android:layout_width="80dp"
+
+
+            />
+
+        <EditText
+            android:id="@+id/mydate"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_height="50dp"
+            android:layout_width="80dp"
+            style="@style/CustomEditText"
+
+
+            />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="በዓላት/ኣፅዋማት"
+            android:onClick="bahre"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="መዓልቲ"
+            android:onClick="findDay"/>
+        <Button
+            android:id="@+id/button3"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="ሓበሬታ"
+            android:onClick="info"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="ኣጥፍእ"
+            android:onClick="reset"
+            />
+        <Button
+            android:id="@+id/button1"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:layout_height="55dp"
+            android:layout_width="wrap_content"
+            android:text="About"
+            android:onClick="hafie"
+            />
+
+
+
+        <TextView
+            android:layout_row="4"
+            android:id="@+id/output"
+            android:layout_column="0"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textSize="21dp"
+            android:background="#F4F5E5"
+            android:layout_columnSpan="4"
+            android:text="በስመ ኣብ ወወልድ
+   ወመንፈስ ቅዱስ ፩ ኣምላክ ኣሜን!"/>
+    </GridLayout>
+</ScrollView>
+
+
+
